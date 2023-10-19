@@ -14,7 +14,7 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    express,
     meta,
     starbucks,
     tesla,
@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "FullStack Developer",
       icon: creator,
     },
   ];
@@ -109,8 +109,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "express",
+      icon: express,
     },
   ];
   
