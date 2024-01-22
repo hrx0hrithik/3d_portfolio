@@ -32,7 +32,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
         </div>
 
         <div className="mt-5">
-          <h3 onClick={() => window.open(hosted_site_link,"_blank")} className="text-white font-bold text-[24px] hover:underline hover:cursor-pointer">{name}</h3>
+          <div className="hover:cursor-pointer" onClick={() => window.open(hosted_site_link,"_blank")}>
+          <span className="text-white font-bold text-[24px] hover:underline ">{name}</span> &#128279;
+          </div>
           <p className="mt-2 text-secondary text-[14px]" >{description}</p>
         </div>
 
