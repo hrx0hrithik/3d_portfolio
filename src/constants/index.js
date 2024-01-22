@@ -182,7 +182,7 @@ import {
       ],
       image: GoYOLO,
       source_code_link: "https://github.com/hrx0hrithik/MERN-Hotel-Booking",
-      hosted_site_link: "",
+      hosted_site_link: "https://fastidious-melba-8feb05.netlify.app/",
     },
     {
       name: "Windows 11 Clone",
@@ -204,7 +204,7 @@ import {
       ],
       image: WindowsHome,
       source_code_link: "https://github.com/hrx0hrithik/Windows_11_Homescreen",
-      hosted_site_link: "",
+      hosted_site_link: "https://hrithik-windows11.netlify.app/",
     },
     {
       name: "Ping Pong game",

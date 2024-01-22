@@ -19,7 +19,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
       >
         <div className="relative w-full h-[230px]">
             <img src={image} alt={name} className="w-full h-full object-contain rounded-2xl" />
-          <div onClick={() => window.open(hosted_site_link,"_blank")} className="absolute inset-0 flex justify-end m-3 card-img_hover cursor-pointer">
+          <div  className="absolute inset-0 flex justify-end m-3 card-img_hover">
 
             <div onClick={() => window.open(source_code_link,"_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -32,7 +32,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <h3 onClick={() => window.open(hosted_site_link,"_blank")} className="text-white font-bold text-[24px] hover:underline hover:cursor-pointer">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]" >{description}</p>
         </div>
 
