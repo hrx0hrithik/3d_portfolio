@@ -25,10 +25,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import celebal from "./company/celebal.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import GoYOLO from "./GoYOLO.png";
+import WindowsHome from "./WindowsHome.png";
+import PingpongGame from "./PingpongGame.png";
 
 export {
   logo,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  celebal,
+  GoYOLO,
+  WindowsHome,
+  PingpongGame,
 };
